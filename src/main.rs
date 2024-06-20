@@ -6,8 +6,6 @@ fn main() {
     println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..101); //1..101で１から１００までとしている。上限は含めないので注意。
-
-    println!("The secert number is: {}", secret_number);
     
 loop{//loop while文と同じような感じ？　
     println!("Please input your guess.");
